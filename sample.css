@@ -107,13 +107,15 @@ li{
 
 
 /* 本文はここから */
-main h1{
+h4{
+  margin-bottom: 64px;
+}
+.homePhoto{
   margin-top: 64px;
-  padding: 145px 0;
-  background: url("phonto.JPG");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  width: 100%;
   max-width: 1100px;
+  display: flex;
+  margin: 0 auto;
 }
 .main-text{
   margin: 0 25px;
@@ -239,11 +241,6 @@ button:hover{
 
   .self-introduction{
     margin-bottom: 60px;
-  }
-
-  main h1{
-    padding: 30px 0;
-    height: 300px;
   }
 }
 
