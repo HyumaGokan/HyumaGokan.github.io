@@ -1,0 +1,32 @@
+main{
+  padding: 0 15px;
+}
+h1{
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+div{
+  margin-bottom: 100px;
+}
+
+
+button{
+  background-color: rgb(220, 215, 215);
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+button:hover{
+  background-color: green;
+  cursor: pointer;
+  transition: .7s;
+}
+button a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 50px;
+}
+button a:hover{
+  color: white;
+}
