@@ -1,0 +1,45 @@
+body{
+  padding: 0 16px;
+}
+main h1{
+  border-bottom: 1px solid black;
+}
+button a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 50px;
+}
+button a:hover{
+  color: white;
+}
+button{
+  background-color: rgb(220, 215, 215);
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+button:hover{
+  background-color: green;
+  cursor: pointer;
+  transition: .7s;
+}
+.text{
+  margin-bottom: 50px;
+  max-width: 1000px;
+}
+
+.physical{
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.physical div{
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+span{
+  color: green;
+}
