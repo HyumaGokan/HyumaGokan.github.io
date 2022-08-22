@@ -110,6 +110,9 @@ li{
 h4{
   margin-bottom: 64px;
 }
+h1{
+  display: none;
+}
 .homePhoto{
   width: 100%;
   max-width: 1100px;
