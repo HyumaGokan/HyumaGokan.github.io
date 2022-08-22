@@ -61,7 +61,6 @@ img.hobby{
 
 .last-text{
   padding: 0 40px;
-  margin: 0 auto;
 }
 
 
@@ -80,5 +79,9 @@ footer{
 @media(min-width: 600px){
   img.hobby{
     width: 30%;
+  }
+  .last-text{
+    text-align: center;
+    padding: 0 90px;
   }
 }
