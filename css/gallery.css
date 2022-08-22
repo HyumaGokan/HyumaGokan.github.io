@@ -62,12 +62,6 @@ img{
   footer img{
     width: 100px;
   }
-  .theater{
-    font-size: 0;
-  }
-  .theater::before{
-    content: "クロアチア国立劇場バレエ団に入団";
-  }
 }
 /* @media(min-width: 1000px){
   img{
