@@ -1,0 +1,228 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  padding: 0 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  padding: 0 16px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(0, 178, 238, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.sp-menu{
+  margin-left: auto;
+}
+#open{
+  font-size: 32px;
+  line-height: 64px;
+  cursor: pointer;
+}
+#open.hide{
+  display: none;
+}
+.header-text{
+  background-color: gray;
+  color: white;
+  padding: 5px;
+}
+header img{
+  padding-top: 7px;
+  padding-left: 20px;
+}
+.head li{
+  font-size: 20px;
+}
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+}
+
+.overlay #close{
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  font-size: 32px;
+  cursor: pointer;
+}
+.overlay li{
+  margin-top: 24px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .3s, transform .3s;
+}
+.overlay.show li {
+  opacity: 1;
+  transform: none;
+}
+.overlay ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.overlay.show{
+  opacity: 1;
+  pointer-events: auto;
+  font-weight: bold;
+}
+.overlay a{
+  color: black;
+  text-decoration: none;
+}
+.overlay a:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
+  padding-bottom: 5px;
+}
+
+.overlay.show li:nth-child(1){
+  transition-delay: .1s;
+}
+.overlay.show li:nth-child(2){
+  transition-delay: .2s;
+}
+.overlay.show li:nth-child(3){
+  transition-delay: .3s;
+}
+.overlay.show li:nth-child(4){
+  transition-delay: .4s;
+}
+
+.pc-menu{
+  display: none;
+}
+
+/* 本文はここから */
+main h1{
+  padding-top: 100px;
+  border-bottom: 5px solid  rgba(0, 178, 238, 0.5);
+}
+
+h2{
+  background-color: rgb(255, 225, 190);
+}
+div span{
+  font-weight: bold;
+}
+
+img.photo{
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.text li{
+  font-size: 17px;
+}
+
+.price{
+  font-size: 18px;
+}
+.last-text{
+  margin-bottom: 100px;
+}
+
+button a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 50px;
+}
+button a:hover{
+  color: white;
+}
+button{
+  background-color: rgb(230, 227, 227);
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+button:hover{
+  background-color: rgb(103, 141, 255);
+  cursor: pointer;
+  transition: .7s;
+}
+
+
+
+footer{
+  display: block;
+  height: 70px;
+  background-color: rgba(0, 178, 238, 0.5);
+  padding: 0 16px;
+  margin-top: 100px;
+}
+footer img{
+  float: right;
+  padding: 7px 0;
+}
+
+
+/* オンラインレッスンについて */
+h3{
+  font-size: 22px;
+}
+.lesson{
+  background-color: rgba(255, 3, 117, 0.4);
+}
+main h1.about-class{
+  border-bottom: 5px solid rgba(255, 3, 117, 0.4);;
+}
+
+.button:hover{
+  background-color: rgb(250, 137, 137);
+}
+
+
+/* 画面が大きくなった時 */
+@media(min-width: 600px){
+  .pc-menu{
+    display: block;
+    margin-left: auto;
+  }
+  .pc-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .pc-menu a {
+    display: block;
+    line-height: 64px;
+    text-align: center;
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+  }
+  .sp-menu{
+    display: none;
+  }
+  .pc-menu a:hover{
+    color: blue;
+    background-color: white;
+  }
+
+  img.photo{
+    width: 50%;
+    margin-left: 0;
+  }
+}
