@@ -6,36 +6,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/profile.css">
   <title>ヒューマのプロフィール</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 </head>
 <body>
   <header>
-
-  </header>
-  <main>
-    <h1>プロフィール</h1>
-    <img class="small-me" src="img/littlehyumabirth.JPG" width="170px">
-    <div class="text">2002年北海道生まれ。<br>6歳からバレエを始め、14歳で出場したバレエコンクールでスイスチューリッヒダンスアカデミーの年間フルスカラシップを頂き、14歳からスイスチューリッヒダンスアカデミーに入学。4年間学び18歳で卒業。
-      2021年夏にクロアチア国立バレエ団に入団。現在入団して2年目。
+    <div class="logo">
+      <img src="img/Logo.png" width="100px">
     </div>
-    <h1></h1>
+    <div class="pc-menu">
+      <nav>
+        <ul class="head">
+          <li><a href="index.html">ホーム画面</a></li>
+          <li><a href="member.html">メンバーシップ</a></li>
+          <li><a href="gallery.html">ギャラリー</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sp-menu" id="open">
+      <span class="material-icons">menu</span>
+    </div>
+  </header>
+
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul class="head">
+        <li><a href="index.html">ホーム画面へ</a></li>
+        <li><a href="member.html">メンバーシップ</a></li>
+        <li><a href="lesson.html">オンラインレッスン</a></li>
+        <li><a href="gallery.html">ギャラリー</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <div class="top-text">
+      <h1>プロフィール</h1>
+      <img class="small-me" src="img/littlehyumabirth.JPG" width="170px">
+      <div class="text">2002年北海道生まれ。<br>6歳からバレエを始め、14歳で出場したバレエコンクールでスイスチューリッヒダンスアカデミーの年間フルスカラシップを頂き、14歳からスイスチューリッヒダンスアカデミーに入学。4年間学び18歳で卒業。
+        2021年夏にクロアチア国立バレエ団に入団。現在入団して2年目。
+      </div>
+      <h3></h3>
+    </div>
     <div class="physical">
       <div><span>誕生日 : </span>２００２年１２月</div>
       <div><span>身長 : </span>180cm</div>
       <div><span>趣味、特技 : </span>手芸、料理</div>
       <div><span>血液型 : </span>A型</div>
     </div>
-    <button><a href="index.html">戻る</a></button>
     
     <div class="twophotos">
-      <img class="hobby" src="img/kitri.jpeg">
-      <img class="hobby" src="img/cow.jpeg">
+      <img src="img/kitri.jpeg">
+      <img src="img/cow.jpeg">
     </div>
     <div class="last-text">上の写真はスイス留学時代に作ったバレエキトリのウサギのお人形と2021年丑年に作った作品です。<br>僕は小さな頃から夏休みの自由研究はいつも手芸作品でした(笑)
-    <br><a href="https://www.youtube.com/watch?v=R7Mw0ow4GVY">僕の手芸動画も見てください！</a></div>
-  </main>
+      <br><a href="https://www.youtube.com/watch?v=R7Mw0ow4GVY">僕の手芸動画も見てください！</a></div>
+      <button><a href="index.html">戻る</a></button>
+    </main>
   <footer>
     <div>見てくれてありがとう！</div>
     <img src="img/sleepingLogo.png" width="100px">
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
