@@ -1,7 +1,10 @@
 body{
   margin: 0;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Tsukushi A Round Gothic", "筑紫A丸ゴシック", 
+  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
+  font-size: 18px;
 }
 main{
   padding: 0 16px;
@@ -86,6 +89,7 @@ li{
 .overlay a{
   color: black;
   text-decoration: none;
+  font-size: 22px;
 }
 .overlay a:hover{
   color: blue;
@@ -134,30 +138,29 @@ h1{
 }
 main h2{
   border-bottom: 1px solid black;
-  font-size: 25px;
+  font-size: 27px;
 }
 main h2.lesson{
   margin-top: 100px;
 }
 .lesson a{
-  font-size: 25px;
+  font-size: 27px;
 }
 .lesson a:hover{
-  color: blue;
+  color: rgb(93, 93, 255);
 }
 main a{
   color: black;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .here{
-  border-bottom: 1px solid black;
-  padding: 2px;
+  border-bottom: 1.5px solid rgb(93, 93, 255);
 }
 .here:hover{
   color: blue;
-  border-bottom: 1px solid blue;
+  border-bottom: 2px solid blue;
 }
 main a.youtube:hover{
   color: red;
