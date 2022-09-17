@@ -1,9 +1,9 @@
 body{
   margin: 0;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: "Tsukushi A Round Gothic", "筑紫A丸ゴシック", 
-  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif;
-  /* font-size: 16px; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Tsukushi A Round Gothic", "筑紫A丸ゴシック", 
+  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif; */
+  /* font-size: 14px; */
   /* font-size: 87.5%; */
 }
 main{
@@ -202,8 +202,24 @@ main h1.about-class{
 }
 
 
+
+@media(min-width: 480px){
+  div{
+    font-size: 14px;
+  }
+  .text li{
+    font-size: 15px;
+  }
+}
+
 /* 画面が大きくなった時 */
 @media(min-width: 600px){
+  div{
+    font-size: 16px;
+  }
+  .text li{
+    font-size: 17px;
+  }
   .pc-menu{
     display: block;
     margin-left: auto;
