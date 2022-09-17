@@ -205,10 +205,10 @@ main h1.about-class{
 
 @media(min-width: 480px){
   div{
-    font-size: 14px;
+    font-size: 13px;
   }
   .text li{
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
